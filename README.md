@@ -28,7 +28,6 @@
 5.  Rnn.py
 6.  TicTacToe.py
 7.  Installation & Requirements
-8.  README.md
 -----
 
 ## 1\. AlexNet.py
@@ -266,55 +265,6 @@ pip install tensorflow keras numpy pandas matplotlib scikit-learn networkx
   - **RAM**: 8GB minimum
   - **Storage**: \~2GB free space
   - **GPU**: Optional but recommended for faster training
-
------
-
-## Running the Scripts
-
-### 1\. AlexNet
-
-```bash
-python AlexNet.py
-```
-
-*Generates synthetic data and trains for 1 epoch to verify architecture.*
-
-### 2\. Classification (Jupyter Notebook)
-
-Open `classification.ipynb` in Jupyter/Colab.
-*Ensures dataset path is correct and runs augmentation pipeline.*
-
-### 3\. Deep Reinforcement Learning
-
-```bash
-python DeepReinforcementLearning.py
-```
-
-*Displays graph visualization of the pathfinding agent.*
-
-### 4\. LSTM
-
-```bash
-python LSTM.py
-```
-
-*Generates Sine wave data and plots prediction curves.*
-
-### 5\. RNN
-
-```bash
-python Rnn.py
-```
-
-*Trains on text corpus and generates a sentence completion.*
-
-### 6\. Tic Tac Toe
-
-```bash
-python TicTacToe.py
-```
-
-*Trains agent for 3000 rounds and starts a Human vs AI game.*
 
 -----
 
